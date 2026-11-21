@@ -1,16 +1,16 @@
 # India place → district → PIN code crosswalk
 
-One row per place on [which-district-india.at01.io](https://which-district-india.at01.io/data/): 27,813 places
+One row per place on [which-district-india.at01.io](https://which-district-india.at01.io/data/): 27,794 places
 in India, each with its state and district (with LGD codes), and where known its PIN code(s), post office, local-script
 name and coordinates.
 
-- Towns: 6,979 (GeoNames populated places of about 1,000 people or more)
-- Post-office localities: 9,661 (district checked against LGD)
+- Towns: 7,003 (GeoNames populated places of about 1,000 people or more)
+- Post-office localities: 9,618 (district checked against LGD)
 - LGD villages (Telangana): 11,173 (with LGD sub-district, village and Census 2011 codes)
 
 Also on GitHub: https://github.com/JasonTKG/india-place-district-pin-crosswalk · Hugging Face: https://huggingface.co/datasets/lakerguy16/india-place-district-pin-crosswalk
 
-File: `india-place-district-pin-crosswalk.csv` (UTF-8, comma-separated, 6.1 MB, sha256 `069381e64c96b673f50faeb39c1e7b147549f93d01907ca6b3353a24cdd638f8`). Multi-valued cells use
+File: `india-place-district-pin-crosswalk.csv` (UTF-8, comma-separated, 6.1 MB, sha256 `6b47a33a98cf337a3cc64342f23085227bdcd2fe53a014f9a1a8c0a32709dc82`). Multi-valued cells use
 `|`. Data as of 2026-11-21.
 
 ## Columns
@@ -64,7 +64,7 @@ The data is from LGD and GeoNames as described; neither has reviewed or endorsed
 - Village PINs rest on a match between the village's name and the only post office of that name in the state, with at least one consistency check. A fact-check before that check estimated 5–9% wrong; the check removed the rows without supporting evidence.
 - Coordinates and populations are GeoNames' and are approximate; GeoNames notes that its coordinates for India are less accurate than for many countries.
 
-167 rows are held out pending fixes (see "Known limits"). Noindexed pages on the site are not exported.
+164 rows are held out pending fixes (see "Known limits"). Noindexed pages on the site are not exported.
 
 ## How it is made
 
