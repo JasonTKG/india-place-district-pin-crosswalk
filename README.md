@@ -10,8 +10,8 @@ name and coordinates.
 
 Also on GitHub: https://github.com/JasonTKG/india-place-district-pin-crosswalk · Hugging Face: https://huggingface.co/datasets/lakerguy16/india-place-district-pin-crosswalk
 
-File: `india-place-district-pin-crosswalk.csv` (UTF-8, comma-separated, 6.1 MB, sha256 `6b47a33a98cf337a3cc64342f23085227bdcd2fe53a014f9a1a8c0a32709dc82`). Multi-valued cells use
-`|`. Data as of 2026-11-21.
+File: `india-place-district-pin-crosswalk.csv` (UTF-8, comma-separated, 6.2 MB, sha256 `acbf93b15f9b14bfce79fb304193f7784e173c12e58dd21273b9a5d9c11fc23e`). Multi-valued cells use
+`|`. Data as of 2026-11-22.
 
 ## Columns
 
